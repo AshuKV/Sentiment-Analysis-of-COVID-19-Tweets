@@ -3,6 +3,8 @@ A twitter sentiment analysis model to understand the people’s sentiment toward
 
 ## Files And Directories
 
+```Project_Reddit_Flair.ipynb``` contains the kaggle kernel to view the analysis of  COVID19 tweets.
+
 ```requirements.txt``` lists all the dependencies required to run the project.
 
 ## Working
