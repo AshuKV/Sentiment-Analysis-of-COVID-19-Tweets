@@ -1,10 +1,8 @@
 Programming Language: 
-
 Python 3
 
 
 Main Libraries used:
-
 matplotlib
 os                                                        
 sklearn
@@ -18,7 +16,6 @@ WordClod
 
 
 Deployment:                                            
-
-IBM Cloud for 
+IBM Cloud
 
 
