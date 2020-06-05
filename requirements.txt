@@ -1,0 +1,24 @@
+Programming Language: 
+
+Python 3
+
+
+Main Libraries used:
+
+matplotlib
+os                                                        
+sklearn
+numpy                                                 
+seaborn 
+pandas                                                
+re
+scipy                                                   
+nltk
+WordClod
+
+
+Deployment:                                            
+
+IBM Cloud for 
+
+
