@@ -1,11 +1,15 @@
 # Sentiment-Analysis-of-COVID-19-Tweets
 A twitter sentiment analysis model to understand the people’s sentiment towards the epidemic and on the government decision to extend the lockdown
 
+
 ## Files And Directories
 
-```Project_Reddit_Flair.ipynb``` contains the kaggle kernel to view the analysis of  COVID19 tweets.
+```Project_Reddit_Flair.ipynb``` contains the notebook to view the analysis of  COVID19 tweets.
 
 ```requirements.txt``` lists all the dependencies required to run the project.
+
+A **video demonstration** has also been done [here](https://drive.google.com/file/d/1iXuqDvdG2XCg2vRr2ujyEzlhgUbf07d-/view) to explain our proposed solution. 
+
 
 ## Working
 The given kaggle notebook shows that we just need to add the dataset file from [this](https://www.kaggle.com/smid80/coronavirus-covid19-tweets-late-april/activity), run the notebook and then visualize the sentiments of the people in this epidemic.
@@ -32,4 +36,13 @@ After cleaning the data, we did EDA, like calculating number of tweets on each d
 
 Subsequently, for the purpose of Text analysis, we used text features from the tweets of the people and then did clustering for the sake to understand their sentiment towards the epidemic and on the government decision to extend the lockdown. First and foremost, we extracted the tweets we want to use, and then considering the stopwords of the english language, we first transformed our given text data to numeric arrays using tf-idf technique to further retrieve the beneficial information. After this, we used the MIni-Batch K-means algorithm to form several clusters of the data to use it further for visualization purposes using PCA and t-SNE. 
 
-At last, we observed the extracted key words from the clusters made and concluded that in fact impacted the people’s sentiment towards the epidemic and on the government decision to extend the lockdown. Hence, this project concludes that while the majority of the people throughout the world are taking a positive and hopeful approach, there are instances of fear, sadness and disgust that exhibit still in the world.
+
+## Conclusion
+
+We observed the extracted key words from the clusters composed and concluded that in fact, this epidemic has badly affected the people, including the government's idea to extend the lockdown. Hence, this project concludes that while the majority of the people throughout the world are taking a positive and hopeful approach, there are instances of fear, sadness and disgust that exhibit still in the world.
+
+
+## Future Work
+
+Further we are hoping to extract the hashtags from people’s tweets and then design a model using some ML algorithms, like Naive-Bayes, Linear Support Vector Machine, Logistic Regression, Random Forest, and Multi-Layer Perceptron Classifier, where we would be able to detect and classify the tweet as what the overall the message is, that it wants to convey. We would also like to analyze Tweets in other languages as well considering what country that tweet belongs to. Last but not the least, we could also use the web frameworks to analyze how clusters of tweets, that have particular traits, would affect the society. 
+
