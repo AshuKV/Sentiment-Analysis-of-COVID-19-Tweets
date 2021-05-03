@@ -12,7 +12,7 @@ A **video demonstration** has also been done [here](https://drive.google.com/fil
 
 
 ## Working
-The given kaggle notebook shows that we just need to add the dataset file from [this](https://www.kaggle.com/smid80/coronavirus-covid19-tweets-late-april/activity), run the notebook and then visualize the sentiments of the people in this epidemic.
+The given notebook shows that we just need to add the dataset file from [this](https://www.kaggle.com/smid80/coronavirus-covid19-tweets-late-april/activity), run the cells and then visualize the sentiments of the people in this epidemic.
 
 
 ## Dependencies
