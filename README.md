@@ -30,7 +30,7 @@ The main idea of this project is to find out the general trendings of the corona
 3. Information extraction (tf-idf method), and
 4. Mini Batch K-means Algorithm.
 
-First of all, we import all the required modules and libraries, and then extract all the useful information leaving behind some files like “Countries” which just are just vain. Then we cleaned and pre-processed the datasets using Pandas dataframe. Here we dropped the columns that have too many missing values and useless columns, concatenated all the information to one dataframe, dropped duplicate columns, and filled the missing values with its mode value.
+First of all, we import all the required modules and libraries, and then extract all the useful information leaving behind some files like “Countries” which are just vain. Then we cleaned and pre-processed the datasets using Pandas dataframe. Here we dropped the columns that have too many missing values and useless columns, concatenated all the information to one dataframe, dropped duplicate columns, and filled the missing values with its mode value.
 
 After cleaning the data, we did EDA, like calculating number of tweets on each day, plotting the barplot, boxplot, and Correlation Heatmap. We also created Wordcloud Visuals to get the insight of the most precious terms in the dataset, which undoubtedly showed “COVID19”, “coronavirus”, “pandemic” were the most frequent words. We had just shown the pie plots for reference to get the distribution analysis of two boolean features. We counted the top 10 sources and top 10 languages where we saw that English is dominating one, so we only used english text for the analyzing purposes. 
 
